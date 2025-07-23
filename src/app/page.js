@@ -1,4 +1,5 @@
 import FeaturedCasinos from './components/FeaturedCasinos'
+import Link from 'next/link'
 
 export default function HomePage() {
   return (
@@ -14,12 +15,14 @@ export default function HomePage() {
         <p className="mt-6 text-lg text-gray-300 max-w-2xl">
           Discover the best online casinos with honest reviews, exclusive bonuses, and fast payout insights — all curated with affiliate precision.
         </p>
-        <a
-          href="/casino"
-          className="mt-8 inline-block bg-yellow-400 text-black font-semibold px-6 py-3 rounded hover:bg-yellow-300 transition"
-        >
+
+      <Link href="/casino" passHref>
+        <div className="mt-8 inline-block bg-yellow-400 text-black font-semibold px-6 py-3 rounded hover:bg-yellow-300 transition">
           Browse Casinos
-        </a>
+        </div>
+      </Link>
+
+
       </div>
 
       {/* Featured Casino Strip */}
