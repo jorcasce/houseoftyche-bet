@@ -1,0 +1,58 @@
+const casinos = [
+  {
+    name: 'BetMGM',
+    slug: 'betmgm',
+    bonus: '100% up to $1,000 + $25 Free Play',
+    bonusValue: 1000,
+    rating: 4.5,
+    link: 'https://www.betmgm.com/',
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/e/e4/BetMGM_logo.svg',
+    description: 'BetMGM offers a massive welcome bonus and sleek UX tailored to US players.',
+    pros: ['Trusted U.S. brand', 'Wide variety of slots', 'Fast withdrawals'],
+    cons: ['Geo-restricted in some regions', 'Limited payment options'],
+    payments: ['Visa', 'Mastercard', 'PayPal'],
+    jurisdiction: 'New Jersey, USA',
+    theme: {
+      background: 'from-yellow-800 to-yellow-600',
+      accent: 'yellow-400',
+    },
+  },
+  {
+    name: 'Stake Casino',
+    slug: 'stake',
+    bonus: 'Up to $56 Stake Cash + 5% Rakeback',
+    bonusValue: 56,
+    rating: 5.0,
+    link: 'https://stake.com/',
+    logo: 'https://cdn.stake.com/images/logo.png',
+    description: 'Stake combines crypto-friendly betting with global reach and high VIP perks.',
+    pros: ['Crypto deposits accepted', 'Live dealer games', 'International reach'],
+    cons: ['Not available in all countries', 'Limited fiat banking'],
+    payments: ['Bitcoin', 'Ethereum', 'Litecoin'],
+    jurisdiction: 'Curacao',
+    theme: {
+      background: 'from-gray-900 to-purple-900',
+      accent: 'purple-500',
+    },
+  },
+  {
+    name: 'WOW Vegas',
+    slug: 'wowvegas',
+    bonus: '1.75M WOW Coins + 35 Free Sweepstakes Coins',
+    bonusValue: 0,
+    rating: 3.5,
+    link: 'https://www.wowvegas.com/',
+    logo: 'https://wowvegas.com/favicon.ico',
+    description: 'A sweepstakes-style social casino with tons of play credits and daily rewards.',
+    pros: ['Free-to-play sweepstakes model', 'No deposit required', 'Bonus coin bundles'],
+    cons: ['No real money withdrawals', 'Less game variety'],
+    payments: ['Virtual coins only'],
+    jurisdiction: 'U.S. sweepstakes-compliant',
+    theme: {
+      background: 'from-pink-900 to-red-800',
+      accent: 'red-400',
+    },
+  },
+]
+
+export default casinos
